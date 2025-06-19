@@ -1,4 +1,4 @@
-🧳 Travel Experts MVC App
+🧳 Travelar Experts MVC App
 
 A professional-grade travel agency web application built using ASP.NET Core MVC. This platform empowers users to explore travel packages, register and log in as customers, manage bookings, and allows administrators to oversee users, packages, and content with a modern, secure, and responsive interface.
 
