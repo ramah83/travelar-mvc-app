@@ -1,0 +1,139 @@
+@model TeamLID.TravelExperts.Repository.Domain.Bookings
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/book.png');
+            background-size: cover;
+            background-position: center;
+            opacity: 1;
+            z-index: -1;
+        }
+
+    .form-container {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form-group label {
+        color: #aad8ff;
+        font-weight: 600;
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.9);
+        border: none;
+        border-radius: 6px;
+        color: #003c3c;
+    }
+
+    .text-danger {
+        color: #ffaaaa !important;
+    }
+
+    .btn-primary {
+        background-color: #00ffc3;
+        border-color: #00ffc3;
+        color: #003c3c;
+        font-weight: bold;
+    }
+
+        .btn-primary:hover {
+            background-color: #00e6e6;
+            border-color: #00e6e6;
+            color: #002222;
+        }
+
+    .btn-back {
+        color: #00ffc3;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .btn-back:hover {
+            text-decoration: underline;
+            color: #ffffff;
+        }
+
+    h1, h4 {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+        text-align: center;
+    }
+
+    hr {
+        border-top: 2px solid #00ffc3;
+    }
+</style>
+
+<div class="container">
+    <div class="form-container">
+        <h1>Create</h1>
+        <h4>Booking</h4>
+        <hr />
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="TravelerCount" class="control-label"></label>
+                <input asp-for="TravelerCount" class="form-control" />
+                <span asp-validation-for="TravelerCount" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TripTypeId" class="control-label"></label>
+                <select asp-for="TripTypeId" class="form-control" asp-items="ViewBag.TripTypeId"></select>
+            </div>
+
+            @if (Model.PackageId == null || Model.PackageId == 0)
+            {
+                <div class="form-group">
+                    <label asp-for="PackageId" class="control-label"></label>
+                    <select asp-for="PackageId" class="form-control" asp-items="ViewBag.PackageId"></select>
+                    <span asp-validation-for="PackageId" class="text-danger"></span>
+                </div>
+            }
+            else
+            {
+                <input type="hidden" asp-for="PackageId" />
+            }
+
+            <div class="form-group text-center">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <div class="text-center mt-4">
+            <a asp-action="Index" class="btn-back">? Back to List</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

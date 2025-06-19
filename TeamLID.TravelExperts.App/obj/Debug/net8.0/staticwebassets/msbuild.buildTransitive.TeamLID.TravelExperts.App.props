@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TeamLID.TravelExperts.App.props" />
+</Project>

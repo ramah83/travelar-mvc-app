@@ -1,0 +1,271 @@
+@model IEnumerable<TeamLID.TravelExperts.App.Models.PackagesModel>
+
+@{
+    ViewData["Title"] = "Packages";
+    var isAdmin = Context.Session.GetString("IsAdmin") == "true"; 
+}
+<header class="container-header">
+    <div class="jumbotron jumbotron-fluid jumbotron-packages">
+        <div class="container">
+            <h1 class="display-4 contact-greetings h1-responsive">Packages</h1>
+            <hr class="my-4">
+        </div>
+    </div>
+</header>
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 19px;
+        line-height: 1.9;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/pak.png');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            opacity: 1;
+        }
+
+    .jumbotron-packages {
+        background: transparent;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .contact-greetings {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+    }
+
+    .agent-contacts {
+        color: #aad8ff;
+        font-weight: bold;
+    }
+
+    .description {
+        color: #a1d1e6;
+    }
+
+    .agent-box {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        color: white;
+        margin: 40px auto;
+    }
+
+    .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        overflow: visible;
+    }
+
+        .card-deck .card.package {
+            background-color: rgba(0, 0, 0, 0.3);
+            border: 1px solid #00bcd4;
+            color: #fff;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            transform-origin: center;
+            z-index: 1;
+        }
+
+            .card-deck .card.package:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 20px #00e6e6;
+                z-index: 10;
+            }
+
+    .card-title {
+        color: #aad8ff;
+    }
+
+    .card-text {
+        color: #e0f7fa;
+    }
+
+    .blockquote .lead {
+        color: #00ffc3;
+    }
+
+    table.table {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    table thead th {
+        background-color: rgba(0, 54, 102, 0.95);
+        color: #00ffc3;
+    }
+
+    table tbody tr {
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: background-color 0.3s ease;
+    }
+
+    table tbody tr {
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+    }
+
+        table tbody tr:hover {
+            transform: scale(1.02);
+            background-color: rgba(0, 102, 153, 0.8); 
+            color: #ffffff !important; 
+            z-index: 5;
+            position: relative;
+        }
+
+            table tbody tr:hover td {
+                font-size: 1.05em; 
+                font-weight: 500;
+                color: #ffffff; 
+            }
+
+    .btn-outline-success {
+        border-color: #00ffc3;
+        color: #00ffc3;
+        font-weight: bold;
+    }
+
+        .btn-outline-success:hover {
+            background-color: #00ffc3;
+            color: #003c3c;
+        }
+</style>
+
+<main>
+    <div class="container">
+        <div class="contact-main">
+            <div class="agent-box">
+                <h2 class="agent-contacts">Package Deals</h2>
+                <p class="description lead fw-100">Created just for you. Browse through and book today.</p>
+                <br>
+
+                <div class="card-deck">
+                    <div class="card package">
+                        <img src="~/images/sewa.jpg" class="card-img-top" alt="Siwa">
+                        <div class="card-body">
+                            <h4 class="card-title h4-responsive"><strong>Siwa Oasis</strong></h4>
+                            <p class="card-text">The Siwa Oasis, is an urban oasis in Egypt.</p>
+                        </div>
+                        <blockquote class="blockquote mb-0 card-body">
+                            <footer><p class="lead">EGP 9000</p></footer>
+                        </blockquote>
+                    </div>
+
+                    <div class="card package">
+                        <img src="~/images/QARO.webp" class="card-img-top" alt="Petrified">
+                        <div class="card-body">
+                            <h4 class="card-title h4-responsive"><strong>Petrified Forest</strong></h4>
+                            <p class="card-text">33-million-year-old forest preserved in Fayoum.</p>
+                        </div>
+                        <blockquote class="blockquote mb-0 card-body">
+                            <footer><p class="lead">EGP 6000</p></footer>
+                        </blockquote>
+                    </div>
+
+                    <div class="card package">
+                        <img src="~/images/Luxor.jpg" class="card-img-top" alt="Valley">
+                        <div class="card-body">
+                            <h4 class="card-title h4-responsive"><strong>Valley of the Kings</strong></h4>
+                            <p class="card-text">Ancient tombs of pharaohs in Egypt’s New Kingdom.</p>
+                        </div>
+                        <blockquote class="blockquote mb-0 card-body">
+                            <footer><p class="lead">EGP 5000</p></footer>
+                        </blockquote>
+                    </div>
+
+                    <div class="card package">
+                        <img src="~/images/pr.jpeg" class="card-img-top" alt="Pyramids">
+                        <div class="card-body">
+                            <h4 class="card-title h4-responsive"><strong>Egyptian Pyramids</strong></h4>
+                            <p class="card-text">Major pyramids including Djoser and Userkaf.</p>
+                        </div>
+                        <blockquote class="blockquote mb-0 card-body">
+                            <footer><p class="lead">EGP 12000</p></footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <h3 class="agent-contacts">All Packages</h3>
+
+                @if (isAdmin)
+                {
+                    <div class="text-center mb-3">
+                        <a asp-action="Create" class="btn btn-outline-success">+ Add New Package</a>
+                    </div>
+                }
+
+                <div class="table-responsive-lg">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.PkgName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PkgStartDate)</th>
+                                <th>@Html.DisplayNameFor(model => model.PkgEndDate)</th>
+                                <th>@Html.DisplayNameFor(model => model.PkgDesc)</th>
+                                <th class="text-center">@Html.DisplayNameFor(model => model.PkgBasePrice)</th>
+                                @if (isAdmin)
+                                {
+                                    <th>Actions</th>
+                                }
+                                else
+                                {
+                                    <th>Book</th>
+                                }
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.PkgName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.PkgStartDate)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.PkgEndDate)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.PkgDesc)</td>
+                                    <td class="text-center">@Html.DisplayFor(modelItem => item.PkgBasePrice)</td>
+
+                                    @if (isAdmin)
+                                    {
+                                        <td class="action-links">
+                                            <a asp-action="Edit" asp-route-id="@item.PackageId" class="btn btn-outline-warning btn-sm">Edit</a>
+                                            <a asp-action="Delete" asp-route-id="@item.PackageId" class="btn btn-outline-danger btn-sm">Delete</a>
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td>
+                                            <a asp-controller="Bookings" asp-action="Create" asp-route-packageId="@item.PackageId" class="btn btn-outline-success">Book</a>
+                                        </td>
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>

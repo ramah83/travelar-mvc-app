@@ -1,0 +1,229 @@
+﻿@using Microsoft.AspNetCore.Http
+@using TeamLID.TravelExperts.Repository.Domain
+@model TeamLID.TravelExperts.Repository.Domain.Customers
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 19px;
+        line-height: 1.9;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/pro.png');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            opacity: 1;
+        }
+
+    .jumbotron-profile {
+        background: transparent;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .register-greetings {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+    }
+
+    .register-heading {
+        color: #aad8ff;
+        font-weight: bold;
+    }
+
+    .register-box {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        color: white;
+        margin: 20px auto;
+    }
+
+    .profile-box {
+        background: rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+        margin-top: 40px;
+    }
+
+    .btn-outline-primary {
+        border-color: #00ffc3;
+        color: #00ffc3;
+        font-weight: bold;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #00ffc3;
+            color: #003c3c;
+        }
+
+    .btn-outline-warning {
+        border-color: #ffcc00;
+        color: #ffcc00;
+        font-weight: bold;
+    }
+
+        .btn-outline-warning:hover {
+            background-color: #ffcc00;
+            color: #003c3c;
+        }
+
+    .card.package img {
+        border-radius: 10px;
+        border: 1px solid #00bcd4;
+    }
+
+    dl dt {
+        color: #aad8ff;
+        font-weight: 600;
+    }
+
+    dl dd {
+        color: #e0f7fa;
+    }
+
+    hr {
+        border-top: 2px solid #00e6e6;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid jumbotron-profile">
+        <div class="container">
+            <h1 class="display-4 register-greetings h1-responsive">Your Account</h1>
+            <hr class="my-4">
+            <p class="lead register-heading">Profile</p>
+        </div>
+    </div>
+</div>
+
+<main>
+    <div class="container">
+        <div class="register-main">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-box">
+                        <div class="card package">
+                            <img src="~/images/user.png" class="card-img-top" alt="profile">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="register-box">
+                        <div class="mb-4 d-flex justify-content-between">
+                            <a asp-controller="Customers" asp-action="CustomerHistory">
+                                <button class="btn btn-outline-primary">Back to history</button>
+                            </a>
+                            <a asp-controller="Customers" asp-action="Edit" asp-route-id="@Model.CustomerId">
+                                <button class="btn btn-outline-warning">Edit Profile</button>
+                            </a>
+                        </div>
+
+                        <dl class="row mx-auto">
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustFirstName)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustFirstName)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustLastName)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustLastName)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustAddress)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustAddress)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustCity)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustCity)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustProv)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustProv)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustPostal)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustPostal)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustCountry)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustCountry)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustHomePhone)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustHomePhone)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustBusPhone)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustBusPhone)</dd>
+
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustEmail)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CustEmail)</dd>
+                        </dl>
+                        @{
+                            var isAdmin = Context.Session.GetString("IsAdmin");
+                            var username = Context.Session.GetString("Username");
+                        }
+
+                        @if (isAdmin != "true" && !Model.WantsAdmin)
+                        {
+                            <div class="text-center my-4">
+                                <form asp-action="RequestAdmin" method="post">
+                                    <button type="submit" class="btn btn-outline-warning">
+                                        Request Admin Access
+                                    </button>
+                                </form>
+                            </div>
+                        }
+                        else if (Model.WantsAdmin)
+                        {
+                            <div class="text-center my-4">
+                                <span class="badge bg-info text-white">Admin access requested. Waiting for approval.</span>
+                            </div>
+                        }
+
+                        @if (isAdmin == "true")
+                        {
+                            <div class="text-center my-4">
+                                <a asp-controller="Customers" asp-action="AdminRequests">
+                                    <button class="btn btn-outline-primary">View Admin Requests</button>
+                                </a>
+                            </div>
+                        }
+
+                        @if (username == "admin" && Model.IsAdmin && Model.Username != "admin")
+                        {
+                            <div class="text-center my-4">
+                                <form asp-action="RevokeAdmin" method="post" onsubmit="return confirm('Are you sure you want to revoke admin access?');">
+                                    <input type="hidden" name="id" value="@Model.CustomerId" />
+                                    <button type="submit" class="btn btn-outline-danger">
+                                        Revoke Admin Access
+                                    </button>
+                                </form>
+                            </div>
+                        }
+                        @if (isAdmin == "true" && username != "admin" && Model.Username == username)
+                        {
+                            <div class="text-center my-4">
+                                <form asp-action="RevokeMyAdminRole" method="post" onsubmit="return confirm('Are you sure you want to remove your admin access?');">
+                                    <button type="submit" class="btn btn-outline-danger">
+                                        Revoke My Admin Access
+                                    </button>
+                                </form>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

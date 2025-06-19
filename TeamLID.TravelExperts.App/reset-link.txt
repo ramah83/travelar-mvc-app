@@ -1,0 +1,2 @@
+https://localhost:5001/Customers/ResetPassword?email=Mohamed.Khaled2501453@compit.aun.edu.eg&token=08caa3dd-9622-4ef0-ad9f-8552bf02d0c0
+https://localhost:5001/Customers/ResetPassword?email=ayamohamed@gmail.com&token=08caa3dd-9622-4ef0-ad9f-8552bf02d0c0

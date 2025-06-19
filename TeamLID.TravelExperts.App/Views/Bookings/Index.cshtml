@@ -1,0 +1,152 @@
+@model IEnumerable<TeamLID.TravelExperts.Repository.Domain.Bookings>
+
+@{
+    ViewData["Title"] = "Bookings";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        color: #e0f7fa;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/book.png');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            opacity: 1;
+        }
+
+    .table-container {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .btn-create {
+        margin-bottom: 20px;
+        display: inline-block;
+        background-color: #00ffc3;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-weight: bold;
+        color: #003c3c;
+        text-decoration: none;
+    }
+
+        .btn-create:hover {
+            background-color: #00e6e6;
+            color: #002222;
+        }
+
+    table {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        border-collapse: collapse;
+    }
+
+    thead th {
+        background-color: rgba(0, 54, 102, 0.9);
+        color: #00ffc3;
+        padding: 12px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    tbody td {
+        text-align: center;
+        padding: 12px;
+        font-size: 17px;
+        font-weight: 500;
+        color: #ffffff;
+        text-shadow: 0px 0px 4px #00e6e6;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    tbody tr:hover {
+        background-color: rgba(0, 255, 255, 0.1);
+        transform: scale(1.02);
+    }
+
+    .action-links a {
+        display: inline-block;
+        margin: 0 6px;
+        color: #00ffc3;
+        font-weight: bold;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .action-links a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container">
+    <h1>Bookings</h1>
+
+    <div class="text-center">
+        <a asp-action="Create" class="btn-create">+ Create New</a>
+    </div>
+
+    <div class="table-container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.BookingDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.BookingNo)</th>
+                    <th>@Html.DisplayNameFor(model => model.TravelerCount)</th>
+                    <th>@Html.DisplayNameFor(model => model.Customer)</th>
+                    <th>@Html.DisplayNameFor(model => model.Package)</th>
+                    <th>@Html.DisplayNameFor(model => model.TripType)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.BookingDate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.BookingNo)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TravelerCount)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Customer.CustAddress)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Package.PkgName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TripType.TripTypeId)</td>
+                        <td class="action-links">
+                            <a asp-action="Edit" asp-route-id="@item.BookingId">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.BookingId">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.BookingId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

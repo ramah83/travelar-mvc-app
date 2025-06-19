@@ -1,0 +1,18 @@
+C:\Users\Rammah\OneDrive\Desktop\Travel-Agency-Web-App-master\Travel-Agency-Web-App-master\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.csproj.AssemblyReference.cache
+C:\Users\Rammah\OneDrive\Desktop\Travel-Agency-Web-App-master\Travel-Agency-Web-App-master\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rammah\OneDrive\Desktop\Travel-Agency-Web-App-master\Travel-Agency-Web-App-master\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.AssemblyInfoInputs.cache
+C:\Users\Rammah\OneDrive\Desktop\Travel-Agency-Web-App-master\Travel-Agency-Web-App-master\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.AssemblyInfo.cs
+C:\Users\Rammah\OneDrive\Desktop\Travel-Agency-Web-App-master\Travel-Agency-Web-App-master\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Rammah\OneDrive\Desktop\Travel-Agency-Web-App-master\Travel-Agency-Web-App-master\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.MvcApplicationPartsAssemblyInfo.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.csproj.AssemblyReference.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.AssemblyInfoInputs.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.AssemblyInfo.cs
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.csproj.CoreCompileInputs.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\net8.0\TeamLID.TravelExperts.Repository.deps.json
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\net8.0\TeamLID.TravelExperts.Repository.dll
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\net8.0\TeamLID.TravelExperts.Repository.pdb
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.dll
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\refint\TeamLID.TravelExperts.Repository.dll
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.TravelExperts.Repository.pdb
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\ref\TeamLID.TravelExperts.Repository.dll

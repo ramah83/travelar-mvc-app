@@ -1,0 +1,281 @@
+﻿@model TeamLID.TravelExperts.App.Models.UserViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/backgra.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            opacity: 1;
+        }
+
+    .register-box {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        margin: 40px auto;
+        color: white;
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.05);
+        color: white;
+        border: 1px solid #00bcd4;
+        border-left: none;
+    }
+
+        .form-control::placeholder {
+            color: #aad8ff;
+        }
+
+        .form-control:focus {
+            border-color: #00e6e6;
+            background-color: rgba(255, 255, 255, 0.08);
+            box-shadow: none;
+        }
+
+    .input-group-text {
+        border-color: #00bcd4;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #00e6e6;
+        border-right: none;
+    }
+
+    .btn-outline-success {
+        border-color: #00ffc3;
+        color: #00ffc3;
+        font-weight: bold;
+    }
+
+        .btn-outline-success:hover {
+            background-color: #00ffc3;
+            color: #003c3c;
+        }
+
+    label {
+        color: #aad8ff;
+        font-weight: 600;
+    }
+
+    .jumbotron-register {
+        background: transparent;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .register-heading {
+        color: #aad8ff;
+    }
+
+    .alert-danger {
+        background-color: rgba(255, 0, 0, 0.1);
+        border-color: #ff5c5c;
+        color: #ffb3b3;
+    }
+</style>
+
+<div class="jumbotron jumbotron-fluid jumbotron-register">
+    <div class="container">
+        <h1 class="display-4 text-white">Register Now</h1>
+        <hr class="my-4" style="color:white;">
+        <p class="lead register-heading">Start your amazing experience with us</p>
+    </div>
+</div>
+
+<main>
+    <div class="container">
+        <div class="register-box">
+
+            @if (ViewBag.msg != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    Sorry, @ViewBag.msg
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            }
+
+            <form method="post" asp-action="Register" class="row">
+                <div asp-validation-summary="ModelOnly" class="text-danger col-12 mb-3"></div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustFirstName">First Name</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input asp-for="CustFirstName" class="form-control" placeholder="First Name" />
+                    </div>
+                    <span asp-validation-for="CustFirstName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustLastName">Last Name</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input asp-for="CustLastName" class="form-control" placeholder="Last Name" />
+                    </div>
+                    <span asp-validation-for="CustLastName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-12">
+                    <label asp-for="CustAddress">Address</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                        </div>
+                        <input asp-for="CustAddress" class="form-control" placeholder="Street Address" />
+                    </div>
+                    <span asp-validation-for="CustAddress" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustCity">City</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-city"></i></span>
+                        </div>
+                        <input asp-for="CustCity" class="form-control" placeholder="City" />
+                    </div>
+                    <span asp-validation-for="CustCity" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustProv">Province</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-globe-africa"></i></span>
+                        </div>
+                        <input asp-for="CustProv" class="form-control" placeholder="Governorate" />
+                    </div>
+                    <span asp-validation-for="CustProv" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustPostal">Postal Code</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-mail-bulk"></i></span>
+                        </div>
+                        <input asp-for="CustPostal" class="form-control" placeholder="e.g. 11765" />
+                    </div>
+                    <span asp-validation-for="CustPostal" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustCountry">Country</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-flag"></i></span>
+                        </div>
+                        <input asp-for="CustCountry" class="form-control" placeholder="Country" />
+                    </div>
+                    <span asp-validation-for="CustCountry" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustHomePhone">Home Phone</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-phone-alt"></i></span>
+                        </div>
+                        <input asp-for="CustHomePhone" class="form-control" placeholder="e.g. 01012345678" />
+                    </div>
+                    <span asp-validation-for="CustHomePhone" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustBusPhone">Business Phone</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-briefcase"></i></span>
+                        </div>
+                        <input asp-for="CustBusPhone" class="form-control" placeholder="e.g. 01098765432" />
+                    </div>
+                    <span asp-validation-for="CustBusPhone" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="CustEmail">Email</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                        </div>
+                        <input asp-for="CustEmail" class="form-control" placeholder="you@email.com" />
+                    </div>
+                    <span asp-validation-for="CustEmail" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Username">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user-circle"></i></span>
+                        </div>
+                        <input asp-for="Username" class="form-control" placeholder="Choose a username" />
+                    </div>
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Password">Password</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                        </div>
+                        <input asp-for="Password" class="form-control" placeholder="Password" />
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="PasswordConfirm">Confirm Password</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                        </div>
+                        <input asp-for="PasswordConfirm" class="form-control" placeholder="Re-enter password" />
+                    </div>
+                    <span asp-validation-for="PasswordConfirm" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-12">
+                    <p class="mt-2">Already have an account? <a asp-controller="Customers" asp-action="Login" style="color:#00ffc3;">Login</a></p>
+                </div>
+
+                <div class="form-group col-12">
+                    <button type="submit" class="btn btn-outline-success btn-block">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,107 @@
+﻿@model TeamLID.TravelExperts.Repository.Domain.Agents
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/pak.png');
+            background-size: cover;
+            background-position: center;
+            opacity: 1;
+            z-index: -1;
+        }
+
+    .details-box {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+        margin: 50px auto;
+        max-width: 800px;
+    }
+
+    h1, h4 {
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+    }
+
+    dt {
+        color: #aad8ff;
+        font-weight: bold;
+    }
+
+    dd {
+        color: #e0f7fa;
+    }
+
+    .btn-links {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+        .btn-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #00ffc3;
+        }
+
+            .btn-links a:hover {
+                color: #ffffff;
+                text-decoration: underline;
+            }
+</style>
+
+<div class="container">
+    <div class="details-box">
+        <h1>Details</h1>
+        <h4>Agent</h4>
+        <hr />
+
+        <dl class="row">
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtFirstName)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtFirstName)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtMiddleInitial)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtMiddleInitial)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtLastName)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtLastName)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtBusPhone)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtBusPhone)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtEmail)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtEmail)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtPosition)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtPosition)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Agency)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Agency.AgencyId)</dd>
+        </dl>
+
+        <div class="btn-links">
+            <a asp-action="Edit" asp-route-id="@Model.AgentId">Edit</a> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </div>
+</div>

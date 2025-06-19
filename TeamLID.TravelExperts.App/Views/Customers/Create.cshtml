@@ -1,0 +1,192 @@
+﻿@model TeamLID.TravelExperts.Repository.Domain.Customers
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/pak.png');
+            background-size: cover;
+            background-position: center;
+            opacity: 1;
+            z-index: -1;
+        }
+
+    .form-container {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form-group label {
+        color: #aad8ff;
+        font-weight: 600;
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.9);
+        border: none;
+        border-radius: 6px;
+        color: #003c3c;
+    }
+
+    .text-danger {
+        color: #ffaaaa !important;
+    }
+
+    .btn-primary {
+        background-color: #00ffc3;
+        border-color: #00ffc3;
+        color: #003c3c;
+        font-weight: bold;
+    }
+
+        .btn-primary:hover {
+            background-color: #00e6e6;
+            border-color: #00e6e6;
+            color: #002222;
+        }
+
+    .btn-back {
+        color: #00ffc3;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .btn-back:hover {
+            text-decoration: underline;
+            color: #ffffff;
+        }
+
+    h1, h4 {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+        text-align: center;
+    }
+
+    hr {
+        border-top: 2px solid #00ffc3;
+    }
+</style>
+
+<div class="container">
+    <div class="form-container">
+        <h1>Create</h1>
+        <h4>Customers</h4>
+        <hr />
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="CustFirstName"></label>
+                <input asp-for="CustFirstName" class="form-control" />
+                <span asp-validation-for="CustFirstName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustLastName"></label>
+                <input asp-for="CustLastName" class="form-control" />
+                <span asp-validation-for="CustLastName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustAddress"></label>
+                <input asp-for="CustAddress" class="form-control" />
+                <span asp-validation-for="CustAddress" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustCity"></label>
+                <input asp-for="CustCity" class="form-control" />
+                <span asp-validation-for="CustCity" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustProv"></label>
+                <input asp-for="CustProv" class="form-control" />
+                <span asp-validation-for="CustProv" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustPostal"></label>
+                <input asp-for="CustPostal" class="form-control" />
+                <span asp-validation-for="CustPostal" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustCountry"></label>
+                <input asp-for="CustCountry" class="form-control" />
+                <span asp-validation-for="CustCountry" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustHomePhone"></label>
+                <input asp-for="CustHomePhone" class="form-control" />
+                <span asp-validation-for="CustHomePhone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustBusPhone"></label>
+                <input asp-for="CustBusPhone" class="form-control" />
+                <span asp-validation-for="CustBusPhone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CustEmail"></label>
+                <input asp-for="CustEmail" class="form-control" />
+                <span asp-validation-for="CustEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AgentId"></label>
+                <select asp-for="AgentId" class="form-control" asp-items="ViewBag.AgentId"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Username"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group text-center">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <div class="text-center mt-4">
+            <a asp-action="Index" class="btn-back">← Back to List</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

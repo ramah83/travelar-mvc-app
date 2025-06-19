@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\lf_egypt.App.props" />
+</Project>

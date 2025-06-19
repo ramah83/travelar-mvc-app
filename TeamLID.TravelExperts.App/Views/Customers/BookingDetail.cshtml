@@ -1,0 +1,172 @@
+﻿@model TeamLID.TravelExperts.App.Models.BookingsModel
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 19px;
+        line-height: 1.9;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/book.png');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            opacity: 1;
+        }
+
+    .jumbotron-customer {
+        background: transparent;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .register-greetings {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+    }
+
+    .register-heading {
+        color: #aad8ff;
+        font-weight: bold;
+    }
+
+    .register-box {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        color: white;
+        margin: 40px auto;
+    }
+
+    .btn-outline-primary {
+        border-color: #00ffc3;
+        color: #00ffc3;
+        font-weight: bold;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #00ffc3;
+            color: #003c3c;
+        }
+
+    dl dt {
+        color: #aad8ff;
+        font-weight: 600;
+    }
+
+    dl dd {
+        color: #e0f7fa;
+    }
+
+    hr {
+        border-top: 2px solid #00e6e6;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid jumbotron-customer">
+        <div class="container">
+            <h1 class="display-4 register-greetings h1-responsive">@Html.DisplayFor(model => model.PackageId)</h1>
+            <hr class="my-4">
+            <p class="lead register-heading">Booked</p>
+        </div>
+    </div>
+</div>
+
+<main>
+    <div class="container">
+        <div class="register-main">
+            <div class="register-box">
+                <div>
+                    <a asp-action="CustomerHistory">
+                        <button class="btn btn-outline-primary">Back to History</button>
+                    </a>
+                </div>
+                <hr />
+                <br />
+                <div>
+                    <dl class="row">
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.BookingNo)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.BookingNo)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.PkgStartDate)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.PkgStartDate)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.PkgEndDate)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.PkgEndDate)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.TravelerCount)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.TravelerCount)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.CustomerId)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.CustomerId)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.PackageId)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.PackageId)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.PkgDesc)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.PkgDesc)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.TripTypeId)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.TripTypeId)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Price)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.Price)
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

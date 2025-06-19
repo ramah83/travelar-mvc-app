@@ -1,0 +1,12 @@
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\net8.0\TeamLID.lf_egypt.Repository.deps.json
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\net8.0\TeamLID.lf_egypt.Repository.dll
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\net8.0\TeamLID.lf_egypt.Repository.pdb
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.lf_egypt.Repository.csproj.AssemblyReference.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.lf_egypt.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.lf_egypt.Repository.AssemblyInfoInputs.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.lf_egypt.Repository.AssemblyInfo.cs
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.lf_egypt.Repository.csproj.CoreCompileInputs.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.lf_egypt.Repository.dll
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\refint\TeamLID.lf_egypt.Repository.dll
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\TeamLID.lf_egypt.Repository.pdb
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\net8.0\ref\TeamLID.lf_egypt.Repository.dll

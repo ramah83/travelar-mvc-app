@@ -1,0 +1,33 @@
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.deps.json
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.runtimeconfig.json
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.runtimeconfig.dev.json
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.dll
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.pdb
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.csproj.AssemblyReference.cache
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.AssemblyInfoInputs.cache
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.AssemblyInfo.cs
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.sourcelink.json
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.dll
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.pdb
+C:\Users\Rammah\Travel-Agency-Web-App\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.genruntimeconfig.cache
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.deps.json
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.runtimeconfig.json
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.runtimeconfig.dev.json
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.dll
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\bin\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.pdb
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.csproj.AssemblyReference.cache
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.AssemblyInfoInputs.cache
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.AssemblyInfo.cs
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.sourcelink.json
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.dll
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.pdb
+C:\Users\Rammah\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.genruntimeconfig.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.csproj.AssemblyReference.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.AssemblyInfoInputs.cache
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.AssemblyInfo.cs
+D:\Travel MVC PROJECT\TeamLID.TravelExperts.Repository\obj\Debug\netcoreapp2.2\TeamLID.TravelExperts.Repository.csproj.CoreCompileInputs.cache

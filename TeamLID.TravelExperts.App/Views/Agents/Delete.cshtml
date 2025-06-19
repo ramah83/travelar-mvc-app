@@ -1,0 +1,117 @@
+﻿@model TeamLID.TravelExperts.Repository.Domain.Agents
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/pak.png');
+            background-size: cover;
+            background-position: center;
+            opacity: 1;
+            z-index: -1;
+        }
+
+    .form-container {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+        margin: 50px auto;
+        max-width: 800px;
+    }
+
+    h1, h3, h4 {
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+    }
+
+    dt {
+        color: #aad8ff;
+        font-weight: bold;
+    }
+
+    dd {
+        color: #e0f7fa;
+    }
+
+    .btn-danger {
+        background-color: #ff4d4d;
+        border: none;
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 6px;
+        color: white;
+    }
+
+        .btn-danger:hover {
+            background-color: #ff0000;
+        }
+
+    .back-link {
+        margin-left: 15px;
+        font-weight: bold;
+        color: #00ffc3;
+        text-decoration: none;
+    }
+
+        .back-link:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container">
+    <div class="form-container">
+        <h1>Delete</h1>
+        <h3>Are you sure you want to delete this?</h3>
+        <hr />
+        <h4>Agent</h4>
+
+        <dl class="row">
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtFirstName)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtFirstName)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtMiddleInitial)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtMiddleInitial)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtLastName)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtLastName)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtBusPhone)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtBusPhone)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtEmail)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtEmail)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.AgtPosition)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.AgtPosition)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Agency)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Agency.AgencyId)</dd>
+        </dl>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="AgentId" />
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-action="Index" class="back-link">Back to List</a>
+        </form>
+    </div>
+</div>

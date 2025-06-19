@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\css\\signin.css",
+      "PackagePath": "staticwebassets\\css\\signin.css"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\Asian.jpeg",
+      "PackagePath": "staticwebassets\\images\\Asian.jpeg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\European.jpeg",
+      "PackagePath": "staticwebassets\\images\\European.jpeg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\LOGIN.png",
+      "PackagePath": "staticwebassets\\images\\LOGIN.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\Luxor.jpg",
+      "PackagePath": "staticwebassets\\images\\Luxor.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\Polyn.jpeg",
+      "PackagePath": "staticwebassets\\images\\Polyn.jpeg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\QARO.webp",
+      "PackagePath": "staticwebassets\\images\\QARO.webp"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\Travel1.jpg",
+      "PackagePath": "staticwebassets\\images\\Travel1.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\Travel2.jpg",
+      "PackagePath": "staticwebassets\\images\\Travel2.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\Travel3.jpg",
+      "PackagePath": "staticwebassets\\images\\Travel3.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\agency1.jpg",
+      "PackagePath": "staticwebassets\\images\\agency1.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\agency2.jpg",
+      "PackagePath": "staticwebassets\\images\\agency2.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\backgra.jpg",
+      "PackagePath": "staticwebassets\\images\\backgra.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\balloon.png",
+      "PackagePath": "staticwebassets\\images\\balloon.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\carib-new.jpeg",
+      "PackagePath": "staticwebassets\\images\\carib-new.jpeg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\comp2.jpg",
+      "PackagePath": "staticwebassets\\images\\comp2.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\comp4.jpg",
+      "PackagePath": "staticwebassets\\images\\comp4.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\comp5.jpg",
+      "PackagePath": "staticwebassets\\images\\comp5.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\comp6.jpg",
+      "PackagePath": "staticwebassets\\images\\comp6.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\con.png",
+      "PackagePath": "staticwebassets\\images\\con.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\cus.png",
+      "PackagePath": "staticwebassets\\images\\cus.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\des.png",
+      "PackagePath": "staticwebassets\\images\\des.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\edit.png",
+      "PackagePath": "staticwebassets\\images\\edit.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\home.png",
+      "PackagePath": "staticwebassets\\images\\home.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\logo3.png",
+      "PackagePath": "staticwebassets\\images\\logo3.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\logoo.jpeg",
+      "PackagePath": "staticwebassets\\images\\logoo.jpeg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\pak.png",
+      "PackagePath": "staticwebassets\\images\\pak.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\pr.jpeg",
+      "PackagePath": "staticwebassets\\images\\pr.jpeg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\pro.png",
+      "PackagePath": "staticwebassets\\images\\pro.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\profiles.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\s1.jpg",
+      "PackagePath": "staticwebassets\\images\\s1.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\s2.jpg",
+      "PackagePath": "staticwebassets\\images\\s2.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\s3.jpg",
+      "PackagePath": "staticwebassets\\images\\s3.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\s4.png",
+      "PackagePath": "staticwebassets\\images\\s4.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\s5.jpg",
+      "PackagePath": "staticwebassets\\images\\s5.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\sewa.jpg",
+      "PackagePath": "staticwebassets\\images\\sewa.jpg"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.lf_egypt.App.props",
+      "PackagePath": "build\\lf_egypt.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.lf_egypt.App.props",
+      "PackagePath": "buildMultiTargeting\\lf_egypt.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.lf_egypt.App.props",
+      "PackagePath": "buildTransitive\\lf_egypt.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.lf_egypt.App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.lf_egypt.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

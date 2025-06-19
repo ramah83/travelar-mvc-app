@@ -1,0 +1,201 @@
+﻿@model TeamLID.TravelExperts.Repository.Domain.Customers
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/cus.png');
+            background-size: cover;
+            background-position: center;
+            opacity: 1;
+            z-index: -1;
+        }
+
+    .edit-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+        .edit-banner img {
+            width: 100%;
+            height: 250px;
+            opacity: 0.25;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    .register-box {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+        margin: 50px auto;
+    }
+
+    .register-greetings {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+    }
+
+    .register-heading {
+        color: #aad8ff;
+        font-weight: bold;
+    }
+
+    .form-group label {
+        color: #aad8ff;
+        font-weight: bold;
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.95);
+        border: none;
+        border-radius: 6px;
+        color: #003c3c;
+    }
+
+    .text-danger {
+        color: #ffaaaa !important;
+    }
+
+    .btn-outline-success {
+        border-color: #00ffc3;
+        color: #00ffc3;
+        font-weight: bold;
+    }
+
+        .btn-outline-success:hover {
+            background-color: #00ffc3;
+            color: #003c3c;
+        }
+
+    .btn-outline-warning {
+        border-color: #ffaa00;
+        color: #ffaa00;
+        font-weight: bold;
+    }
+
+        .btn-outline-warning:hover {
+            background-color: #ffaa00;
+            color: #003c3c;
+        }
+</style>
+
+<div class="edit-banner">
+    <img src="/images/edit.png" alt="Edit Banner">
+</div>
+
+<main>
+    <div class="container">
+        <div class="register-main">
+            <div class="register-box">
+                <div class="col-md-10 offset-md-1">
+                    <div>
+                        <a asp-action="Profile">
+                            <button class="btn btn-outline-warning">Back to Profile</button>
+                        </a>
+                    </div>
+
+                    <br />
+                    <form asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="CustomerId" />
+
+                        <div class="form-group">
+                            <label asp-for="CustFirstName"></label>
+                            <input asp-for="CustFirstName" class="form-control" />
+                            <span asp-validation-for="CustFirstName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustLastName"></label>
+                            <input asp-for="CustLastName" class="form-control" />
+                            <span asp-validation-for="CustLastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustAddress"></label>
+                            <input asp-for="CustAddress" class="form-control" />
+                            <span asp-validation-for="CustAddress" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustCity"></label>
+                            <input asp-for="CustCity" class="form-control" />
+                            <span asp-validation-for="CustCity" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustProv"></label>
+                            <input asp-for="CustProv" class="form-control" />
+                            <span asp-validation-for="CustProv" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustPostal"></label>
+                            <input asp-for="CustPostal" class="form-control" />
+                            <span asp-validation-for="CustPostal" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustCountry"></label>
+                            <input asp-for="CustCountry" class="form-control" />
+                            <span asp-validation-for="CustCountry" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustHomePhone"></label>
+                            <input asp-for="CustHomePhone" class="form-control" />
+                            <span asp-validation-for="CustHomePhone" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustBusPhone"></label>
+                            <input asp-for="CustBusPhone" class="form-control" />
+                            <span asp-validation-for="CustBusPhone" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CustEmail"></label>
+                            <input asp-for="CustEmail" class="form-control" />
+                            <span asp-validation-for="CustEmail" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group d-none">
+                            <label asp-for="Username"></label>
+                            <input asp-for="Username" class="form-control" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                        <div class="form-group d-none">
+                            <label asp-for="Password"></label>
+                            <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Update" class="btn btn-outline-success btn-block" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+ }

@@ -1,0 +1,889 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Travel MVC PROJECT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\triptypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\triptypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\travelexpertscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\travelexpertscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\suppliercontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\suppliercontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\rewards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\rewards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\regions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\regions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\productssuppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\productssuppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\packagesproductssuppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\packagesproductssuppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\packages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\packages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\fees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\fees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\customersrewards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\customersrewards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\creditcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\creditcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\bookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\bookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\agents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\agents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\agencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\agencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|d:\\travel mvc project\\teamlid.travelexperts.repository\\domain\\affiliations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C58895-4B5C-43BA-951B-D1181AF1DAF2}|TeamLID.TravelExperts.Repository\\TeamLID.lf_egypt.Repository.csproj|solutionrelative:teamlid.travelexperts.repository\\domain\\affiliations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\dashboards\\defaultdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\dashboards\\defaultdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\customers\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\customers\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\customers\\adminrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\customers\\adminrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\bookings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\bookings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\agents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\agents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\agents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\agents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\agents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\agents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\agents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\agents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\views\\agents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\views\\agents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\packagesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\packagesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\bookingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\bookingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\bookingdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\bookingdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\agentsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\agentsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\datamanager\\packagesdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\datamanager\\packagesdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\datamanager\\customerprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\datamanager\\customerprofilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\datamanager\\bookingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\datamanager\\bookingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\models\\datamanager\\bookingdetailsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\models\\datamanager\\bookingdetailsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\controllers\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\controllers\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\controllers\\dashboardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\controllers\\dashboardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|d:\\travel mvc project\\teamlid.travelexperts.app\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956CCF04-20ED-4A86-8B12-C70F56F03BCA}|TeamLID.TravelExperts.App\\lf_egypt.App.csproj|solutionrelative:teamlid.travelexperts.app\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TripTypes.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\TripTypes.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\TripTypes.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\TripTypes.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\TripTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:58.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TravelExpertsContext.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\TravelExpertsContext.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\TravelExpertsContext.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\TravelExpertsContext.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\TravelExpertsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:57.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Suppliers.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Suppliers.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Suppliers.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Suppliers.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Suppliers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:57.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SupplierContacts.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\SupplierContacts.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\SupplierContacts.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\SupplierContacts.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\SupplierContacts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:56.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rewards.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Rewards.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Rewards.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Rewards.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Rewards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:55.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Regions.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Regions.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Regions.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Regions.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Regions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:55.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsSuppliers.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\ProductsSuppliers.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\ProductsSuppliers.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\ProductsSuppliers.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\ProductsSuppliers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:54.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Products.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Products.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Products.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Products.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:53.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PackagesProductsSuppliers.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\PackagesProductsSuppliers.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\PackagesProductsSuppliers.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\PackagesProductsSuppliers.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\PackagesProductsSuppliers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:53.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Packages.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Packages.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Packages.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Packages.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Packages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:52.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Fees.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Fees.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Fees.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Fees.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Fees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:52.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomersRewards.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\CustomersRewards.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\CustomersRewards.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\CustomersRewards.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\CustomersRewards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:51.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreditCards.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\CreditCards.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\CreditCards.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\CreditCards.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\CreditCards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:50.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Customers.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Customers.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Customers.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Customers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:50.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Classes.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Classes.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Classes.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Classes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:48.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Bookings.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Bookings.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Bookings.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Bookings.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Bookings.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:47.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingDetails.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\BookingDetails.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\BookingDetails.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\BookingDetails.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\BookingDetails.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:45.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Agents.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Agents.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Agents.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Agents.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Agents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:44.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Agencies.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Agencies.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Agencies.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Agencies.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Agencies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:44.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Affiliations.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Affiliations.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.Repository\\Domain\\Affiliations.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.Repository\\Domain\\Affiliations.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.Repository\\Domain\\Affiliations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:17:42.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:17:28.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:17:18.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DefaultDashboard.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Dashboards\\DefaultDashboard.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Dashboards\\DefaultDashboard.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Dashboards\\DefaultDashboard.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Dashboards\\DefaultDashboard.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:17:12.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ForgetPassword.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Customers\\ForgetPassword.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Customers\\ForgetPassword.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Customers\\ForgetPassword.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Customers\\ForgetPassword.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:17:07.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminRequests.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Customers\\AdminRequests.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Customers\\AdminRequests.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Customers\\AdminRequests.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Customers\\AdminRequests.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:17:03.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Bookings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Bookings\\Delete.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Bookings\\Delete.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Bookings\\Delete.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:16:58.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Bookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Bookings\\Create.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Bookings\\Create.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Bookings\\Create.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:16:56.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Index.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Agents\\Index.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Index.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Agents\\Index.cshtml",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:16:50.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Agents\\Edit.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Edit.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Agents\\Edit.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:16:46.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Details.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Agents\\Details.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Details.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Agents\\Details.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:16:44.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Agents\\Delete.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Delete.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Agents\\Delete.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:16:41.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Create.cshtml",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Views\\Agents\\Create.cshtml",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Views\\Agents\\Create.cshtml",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Views\\Agents\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T02:16:39.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\UserViewModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\UserViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:35.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\SessionExtensions.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\SessionExtensions.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:35.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\ResetPasswordViewModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\ResetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:33.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PackagesModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\PackagesModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\PackagesModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\PackagesModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\PackagesModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:31.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:30.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:30.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\DashboardViewModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:28.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\CustomerViewModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\CustomerViewModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\CustomerViewModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:26.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BookingsModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\BookingsModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\BookingsModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\BookingsModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\BookingsModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:23.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BookingDetailsModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\BookingDetailsModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\BookingDetailsModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\BookingDetailsModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\BookingDetailsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:22.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AgentsModel.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\AgentsModel.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\AgentsModel.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\AgentsModel.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\AgentsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:20.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PackagesDataManager.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DataManager\\PackagesDataManager.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\DataManager\\PackagesDataManager.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DataManager\\PackagesDataManager.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\DataManager\\PackagesDataManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:19.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CustomerProfileManager.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DataManager\\CustomerProfileManager.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\DataManager\\CustomerProfileManager.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DataManager\\CustomerProfileManager.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\DataManager\\CustomerProfileManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:16.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BookingsManager.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DataManager\\BookingsManager.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\DataManager\\BookingsManager.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DataManager\\BookingsManager.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\DataManager\\BookingsManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:14.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BookingDetailsManager.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DataManager\\BookingDetailsManager.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Models\\DataManager\\BookingDetailsManager.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Models\\DataManager\\BookingDetailsManager.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Models\\DataManager\\BookingDetailsManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:12.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PackagesController.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\PackagesController.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Controllers\\PackagesController.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\PackagesController.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Controllers\\PackagesController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:16:00.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:15:58.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DashboardsController.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\DashboardsController.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Controllers\\DashboardsController.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\DashboardsController.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Controllers\\DashboardsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:15:56.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAACwCAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:15:37.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Controllers\\BookingsController.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:15:26.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AgentsController.cs",
+              "DocumentMoniker": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\AgentsController.cs",
+              "RelativeDocumentMoniker": "TeamLID.TravelExperts.App\\Controllers\\AgentsController.cs",
+              "ToolTip": "D:\\Travel MVC PROJECT\\TeamLID.TravelExperts.App\\Controllers\\AgentsController.cs",
+              "RelativeToolTip": "TeamLID.TravelExperts.App\\Controllers\\AgentsController.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:15:10.733Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

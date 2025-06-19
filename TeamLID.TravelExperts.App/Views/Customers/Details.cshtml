@@ -1,0 +1,150 @@
+﻿@model TeamLID.TravelExperts.Repository.Domain.Customers
+
+@{
+    ViewData["Title"] = "Customer Details";
+}
+<header class="container-header">
+    <div class="jumbotron jumbotron-fluid jumbotron-packages">
+        <div class="container text-center">
+            <h1 class="display-4 contact-greetings h1-responsive">Customer Details</h1>
+            <hr class="my-4">
+        </div>
+    </div>
+</header>
+
+<style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 19px;
+        line-height: 1.9;
+        color: white;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/cus.png');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            opacity: 1;
+        }
+
+    .agent-box {
+        background: rgba(0, 54, 102, 0.85);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        color: white;
+        margin: 40px auto;
+    }
+
+    .contact-greetings {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+    }
+
+    dt {
+        color: #aad8ff;
+        font-weight: 600;
+    }
+
+    dd {
+        color: #e0f7fa;
+    }
+
+    .btn-action {
+        font-weight: bold;
+        margin: 10px;
+        padding: 6px 12px;
+        border: 1px solid #00ffc3;
+        color: #00ffc3;
+        background-color: transparent;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+        .btn-action:hover {
+            background-color: #00ffc3;
+            color: #003c3c;
+            text-decoration: none;
+        }
+
+    hr {
+        border-top: 2px solid #00ffc3;
+    }
+
+    .jumbotron-packages {
+        background: transparent;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 50px 0;
+    }
+
+    .contact-greetings {
+        color: #ffffff;
+        text-shadow: 1px 1px 3px #00e6e6;
+    }
+</style>
+
+<main>
+    <div class="container">
+        <div class="agent-box">
+            <h2 class="contact-greetings text-center">Customer Information</h2>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustFirstName)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustFirstName)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustLastName)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustLastName)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustAddress)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustAddress)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustCity)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustCity)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustProv)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustProv)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustPostal)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustPostal)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustCountry)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustCountry)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustHomePhone)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustHomePhone)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustBusPhone)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustBusPhone)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CustEmail)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CustEmail)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Username)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Username)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Password)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Password)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Agent)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Agent.AgentId)</dd>
+            </dl>
+
+            <div class="text-center">
+                <a asp-action="Edit" asp-route-id="@Model.CustomerId" class="btn-action">✏️ Edit</a>
+                <a asp-action="Index" class="btn-action">🔙 Back to List</a>
+            </div>
+        </div>
+    </div>
+</main>
