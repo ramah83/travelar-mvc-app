@@ -138,16 +138,3 @@ Modern, mobile-friendly UI built with Bootstrap 5 for a consistent experience ac
 
 ![image](https://github.com/user-attachments/assets/47bb4840-09b1-4b11-8521-334734c2d52d)
 
-
-
-
-
-
-
-
-
-
-
-
-
- اعملهالى بطريقه احترافيه ل README.md جيت هب
